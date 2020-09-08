@@ -2418,7 +2418,7 @@ public class JitsiMeetConferenceImpl
             logger.warn("Participant for jid: " + toBeMutedJid + " not found");
             return false;
         }
-
+	// mute-unmute
         // do not allow unmuting other participants even for the moderator
         // if (!doMute && !fromJid.equals(toBeMutedJid))
         // {
